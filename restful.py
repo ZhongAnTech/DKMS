@@ -30,7 +30,7 @@ from werkzeug.wrappers import json
 
 app = Flask(__name__)
 
-conn = pymysql.connect(host="localhost", user="root", password="422422", database="db_udpp", charset="utf8")
+conn = pymysql.connect(host="localhost", user="XXX", database="XXX", charset="utf8")
 
 
 @app.route('/hello', methods=['GET'])
